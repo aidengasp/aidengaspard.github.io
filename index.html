@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aiden's great website!</title>
+        <style>
+            body {
+                background: rgb(0, 128, 0);
+                color: rgb(128,0,128);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 3em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 1200px;
+                max-height: 1200px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(128,0,128);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 3;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+            main {
+                background: rgb(255,165,0);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+                border: 5px solid red;
+                border-radius: 25px;
+            
+
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+             div {
+                  border: 20px peru;
+            }
+            #all-contents {
+                max-width: 1200px;
+                max-height: 1200px;
+                margin: auto;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                margin-bottom: 50px;
+                display: flex;
+                padding: 10px;
+            }
+        </style>
+
+    </head>
+    <body>
+          <div id="all-contents">
+            <nav>
+                <header>Aiden's great website!</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                <img src=data:image/jpeg;base64,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>
+                </div>
+    
+                <div class="content">
+                    <header>Aiden Gaspard</header>
+                </div>
+                <p>Student at Walker Freshman High</p>
+                <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Video Games</li>
+                            <li>Movies</li>
+                            <li>hanging out with friends</li>
+                        </ul>
+                    </section>
+            </main>
+        </div>
+    </body>
+</html>
